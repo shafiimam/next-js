@@ -1,9 +1,11 @@
+import Link from 'next/link'
 function ProductList() {
   return <>
-    <h1>Product 1</h1>
-    <h1>Product 2</h1>
-    <h1>Product 3</h1>
-    <h1>Product 4</h1>
+    <Link href="/"><a>Go Home</a></Link>
+    <h1><Link href="product/product1"><a>Product 1</a></Link></h1>
+    <h1><Link href="product/product2"><a>Product 2</a></Link></h1>
+    <h1><Link href="product/product3" replace><a>Product 3</a></Link></h1>
+    <h1><Link href="product/product4"><a>Product 4</a></Link></h1>
   </>
 }
 
