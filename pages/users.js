@@ -1,4 +1,4 @@
-import User from "./components/user/User";
+import User from "../components/User/User";
 
 function Users(props) {
   const { users } = props;
@@ -6,7 +6,7 @@ function Users(props) {
     <h1>Users</h1>
     {users.map((user) => {
       return (
-        <User user={user} />
+        <User user={user} key={user.id} />
       )
     })}
   </>

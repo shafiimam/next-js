@@ -11,7 +11,7 @@ function Home() {
   return (
     <div>
       <h1>Next js pre rendering</h1>
-      {/* <h1>Home page</h1>
+      <h1>Home page</h1>
 
       <Link href='/blog'>
         <a>Blog</a>
@@ -21,9 +21,12 @@ function Home() {
         <a>Products</a>
       </Link>
 
+      <Link href='/posts'>
+        <a>Posts</a>
+      </Link>
       <button onClick={handleClick}>
         Place Order
-      </button> */}
+      </button>
     </div>
   )
 
